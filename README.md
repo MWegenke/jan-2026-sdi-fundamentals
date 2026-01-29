@@ -10,3 +10,7 @@ Remember, changes made to your forked repository does not affect the original re
 So do not hesitate to make changes and save the up in github.
 
 I will be using this exact repository in the fundamentals live demos. And the code we discuss in class will be pushed up to github periodically, for you to reference.
+
+
+* comparing.txt
+  discusses == vs ===
