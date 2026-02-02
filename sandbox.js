@@ -186,6 +186,206 @@ Mac → cmd + d
 // →→→→ Want to move a whole line, well for 5.99 you can
 // hold alt and use the up or down arrow to move it
 
-/*
-  FUNDAMENTALS III
-*/
+// let dailyWeather = {
+//   conditions: 'Cloudy',
+//   temperature: 48,
+//   temperatureUnit: 'F',
+//   humidity: '22%',
+//   wind: {
+//     speed: 20,
+//     speedUnit: 'mph',
+//     direction: 'NW',
+//     daysSpeed: {
+//       mon:12,
+//       weds:25,
+//     }
+//   },
+//   windyDays: ['Mon','Tues','Fri'],
+//   getSummary: function() {
+//     return 'Conditions: ' + this.conditions + ' ' + 'Temperature: ' + this.temperature + this.temperatureUnit;
+//   },
+//   totalSpeed: function(){
+//     return this.wind.speedUnit
+//   }
+// }
+
+
+// console.log(dailyWeather.totalSpeed())
+
+// let summary = dailyWeather.getSummary()
+
+// console.log(summary)
+
+// let wednesdayWindSpeed = dailyWeather.wind.daysSpeed.weds;
+
+// dailyWeather.wind.daysSpeed.weds = 26
+
+// console.log(dailyWeather.wind.daysSpeed.weds)
+// console.log(wednesdayWindSpeed)
+
+
+// let count = 1;
+// console.log(`Starting count ${count}`)
+// count = count + 1
+// count +=  1
+// count++
+
+// count = count - 1
+// count -=  1
+// count--
+
+// count *= 2
+// count *= 2
+// count *= 2
+// count /= 4
+// console.log(`Now count ${count}`)
+
+
+// for (let i = 0; i < 5; i++) {
+//   // console.log(i)
+//   // I increment i here, at the end of the for loop body
+// }
+
+// let kobe = 1
+// console.log(kobe)
+// kobe++
+// console.log(kobe)
+// console.log(kobe++)
+// console.log(kobe)
+
+// let num = 6
+
+// if(num <5){
+//   console.log("under")
+// }else{
+//   console.log('over')
+// }
+
+// num < 5 ? console.log('under') : console.log("not under")
+
+// let dudes = ['KOBE', 'JACOB', 'JARED', 'COREY', 'MATT']
+
+// let matrix = [
+//   [
+//     [1, 2, 3], [4, 5], [6, 7, 8, 9, 10]
+//   ],
+//   [
+//     [11, 12, 13], [14, 15, 16]
+//   ],
+//   [
+//     ['shoe', 'boot']
+//   ]
+// ]
+
+//I want to console.log KOBE
+// console.log(dudes.length)
+
+// let myGlob
+// function letsLoop() {
+//   let myOutput;
+//   for (let i = 0; i < matrix.length; i++) {
+//     // console.log(`current index or i >> ${i}`)
+//     // console.log(matrix[i])
+//     // console.log(`PARENT == ${i}`)
+//     for (let j = 0; j < matrix[i].length; j++) {
+//       // console.log(matrix[i])
+//       // console.log(matrix[i][j])
+//       for (let k = 0; k < matrix[i][j].length; k++) {
+//         myOutput = matrix[i][j][k]
+//       }
+//     }
+//   }
+//   return myOutput
+// }
+
+// myGlob = letsLoop()
+// console.log(myGlob)
+
+// console.log(letsLoop())
+// console.log(letsLoop())
+// console.log(letsLoop())
+// console.log(letsLoop())
+// console.log(myOutput)
+
+// let sum = (a,b) => {
+//   return a+b
+// }
+
+// function sum(a, b) {
+//   return a + b
+// }
+
+
+// let myMath = {
+//   add: function (a, b) {
+//     return a + b
+//   },
+//   sub: function (a, b) {
+//     return a - b
+//   }
+// }
+// console.log(myMath)
+// console.log(myMath.add(4, 5))
+// console.log(myMath.sub(9, 4))
+
+
+
+// function ifElseFor(a, b) {
+//   if (b === 'number') {
+//     let sum = 0
+//     for (let i = 0; i < a.lenth; i++) {
+//       if (typeof a[i] === 'string') {
+//         sum += 1
+//       } else {
+//         sum += a[i]
+//       }
+//     }
+//     return sum
+//   } else {
+//     let sentence = ""
+//     for (let item of a){
+//     for (let i =0; i< a.length; i++){}
+
+//     }
+//     return sentence
+//   }
+// }
+
+
+// input %2  === 0 ? true : false
+
+// if(input % 2 === 0){
+//   return true
+// }else{
+//   return false
+// }
+
+
+// let myArray = ["Math","Science","Art","Gym","History","Home Ec","Detention","Home Room"]
+
+// let matrix = [
+//   [
+//     [1, 2, 3], [4, 5], [6, 7, 8, 9, 10]
+//   ],
+//   [
+//     [11, 12, 13], [14, 15, 16]
+//   ],
+//   [
+//     ['shoe', 'boot']
+//   ]
+// ]
+// console.log('length >> '+ matrix.length)
+// console.log(matrix[0][1][0])
+
+// for(let counter = 0;counter < matrix.length; counter++){
+//   //condition is checked
+//   // console.log('My counter currently is >> '+ counter)
+//   // console.log(myArray[counter])
+//   console.log(matrix[counter])
+//   for(let childCounter = 0; childCounter < matrix[counter].length; childCounter++){
+//     console.log(matrix[counter][childCounter])
+//   }
+//   //increment counter
+// }
+
+// console.log(myArray[counter])
