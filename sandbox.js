@@ -389,3 +389,74 @@ Mac → cmd + d
 // }
 
 // console.log(myArray[counter])
+
+
+
+// Fundamentals III
+
+let shoe = ['low top','laces','non slip']
+let boot = [...shoe, 'leather']
+
+let shoeObj = {
+  support:'low top',
+  securedHow:'velcro',
+  safe:'non-slip'
+}
+
+let bootObj = {
+  ...shoeObj,
+  steelToe: 'yup'
+}
+
+let {safe, ...bootObjAgain} = bootObj
+
+
+function printAnimals(singleParameter) {
+  console.log(singleParameter);
+}
+
+// printAnimals("dog", "cat", "fish");
+
+function printAnimals(...mulipleParameters) {
+  // console.log(mulipleParameters);
+}
+
+// printAnimals("dog", "cat", "fish",'lizard');
+
+
+let person = {
+  firstName:"Jordan",
+  lastName:'Azemopoulos'
+}
+
+let otherGuy = {
+  name:{
+    fName:"Kobe",
+    lName:"Griffith"
+  }
+}
+
+// console.log(person)
+
+function printName({firstName, lastName}) {
+  console.log(`Hey there, ${firstName} ${lastName}`)
+}
+
+// printName(person)
+// printName(otherGuy)
+
+
+let terribleArry = [1,'Ben',2,3,false,4,5,true,6]
+
+let purdy = terribleArry.filter(numb => typeof numb === 'number' )
+
+let jordan = purdy.map( num => num * 2 )
+
+let jPurdy = terribleArry.filter(numb => typeof numb === 'number' )
+  .map( num => num * 2 )
+  .filter(numb => numb % 4 == 0 )
+  .map( num => num * 2 )
+
+// console.log(purdy)
+// console.log(jordan)
+console.log(jPurdy)
