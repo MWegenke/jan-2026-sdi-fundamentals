@@ -1,4 +1,4 @@
-# jan-2026-sdi-fundamentals
+# jan-2026-sdi-fundamentals from back-end-dev
 
 This is just a landing zone repository for SDI JAN 2026 demos.
 
